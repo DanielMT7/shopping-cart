@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
+# Shopping Cart Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is a shopping cart project developed with React and TypeScript, utilizing React-Bootstrap for styling. The goal is to create a functional application where users can add and remove items from the cart, leveraging the use of the useContext hook to manage the application's global state.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
 
-## Expanding the ESLint configuration
+- React
+- TypeScript
+- React-Bootstrap
+- Bootstrap
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Objective
 
-- Configure the top-level `parserOptions` property like this:
+The objective of this project is to develop an interactive shopping cart that allows users to intuitively add and remove items. Additionally, it aims to enhance skills in using the aforementioned technologies, applying modern architecture and best development practices.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Motivation
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+This project was created as a learning endeavor, intended to explore and deepen knowledge in front-end technologies such as React and TypeScript, and in integrating component libraries like React-Bootstrap.
+
+## Features
+
+- Add items to the cart
+- Remove items from the cart
+- View items in the cart
+- Responsive support for mobile devices
+
+## Screenshots
+
+### Desktop
+
+![Store](public/screenshots/store.png)
+![Cart](public/screenshots/cart.png)
+
+### Mobile
+
+![Store Mobile](public/screenshots/storeMobile.png)
+![Cart Mobile](public/screenshots/cartMobile.png)
